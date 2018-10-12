@@ -1,0 +1,13 @@
+body {
+    height: 600px;
+    background-color: rgb(217, 220, 221);
+    background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+footer {
+    font-style: italic
+}
