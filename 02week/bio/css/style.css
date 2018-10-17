@@ -1,0 +1,44 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: rgb(29, 28, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    border:black;
+    border-width: thick;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.background {
+    padding-top: 6px;
+    padding-bottom: 5px;
+    opacity: 0.65;
+    text-align: center;
+    margin: 30px;
+    background-color: rgb(199, 195, 195);
+    min-width: 400px;
+    min-height: 200px;
+    border-radius: 4px;
+  }
+  
+  div:hover{
+    background-color: rgb(48, 171, 253);
+  }
+
+  img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  
+footer {
+    font-style: italic;
+    text-align: center;
+  }
+
+p::first-letter {
+    text-transform: uppercase;
+    color: rgb(0, 4, 255);
+    font-size: 25px;
