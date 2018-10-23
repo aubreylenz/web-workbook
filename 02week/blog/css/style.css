@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+main {
+    width: 600px;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+}
+
+p:hover::first-letter {
+    color: rgb(247, 64, 9);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.date {
+    font-style: italic;
+}
+
+.austin {
+    font-family: inherit;
+    color: inherit;
+}
+
+.places {
+    font-family: 'Franklin Gothic Medium';
+    color : rgb(0, 17, 255) !important;
+}
+
+footer {
+    text-align: center;
+}
