@@ -1,0 +1,140 @@
+
+head {
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    background-attachment: no-repeat;
+    background-size: contain;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    } 
+}
+
+#logo {
+    margin: 2px 5px 2px 5px;
+}
+
+#home {
+    color: white;
+    font-family: Arial;
+    padding-bottom: 5%;
+    position: right;
+}
+
+#travelDeals {
+    color: white;
+    font-family: Arial;
+}
+
+#flightSchedule {
+    color: white;
+    font-family: Arial;
+}
+
+#login {
+    color: white;
+    font-family: Arial;
+}
+
+#submit {
+    width: 90%;
+    color: white;
+    background-color: #1E5AA8;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: Arial;
+}
+
+#returnselect {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 10px;
+    font-family: Arial;
+}
+
+#passengers {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#depart {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: Arial;
+}
+
+#arrive {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: Arial;
+}
+
+#departdate {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: Arial;
+}
+
+#arrivedate {
+    color: white;
+    background-color: rgb(27, 58, 83);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    font-family: Arial;
+}
+
+#wrapper {
+    background-color: rgb(27, 58, 83);
+    width: 25.5%;
+}
+
+.navbar {
+    background-color: rgb(27, 58, 83);
+    border-bottom: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
+#plane {
+    background-color: #1E5AA8;
+    margin-left: 25.5px;
+    margin-right: 25.5px;
+    color: #1E5AA8;
+}
+
+#hotel {
+    background-color: #089284;
+    margin-left: 25.5px;
+    margin-right: 25.5px;
+}
+
+#car {
+    background-color: #089284;
+    margin-left: 25.5px;
+    margin-right: 25.5px;
+}

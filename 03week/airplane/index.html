@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <title>Airplane</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <div class="navbar"><img id=“logo” src="img/logo.png">
+    <div style="float:right" class="navbar"></div>
+        <link><img id="homeicon" img src="img/home-icon.png"><a href="#home" id="home">Home</a>
+        <link><img id="dealicon"img src="img/deal-icon.png"><a href="#traveldeals" id="travelDeals">Travel Deals</a>
+        <link><img id="scheduleicon"img src="img/schedule-icon.png"><a href="#flightschedule" id="flightSchedule">Flight Schedule</a>
+        <link><img id="loginicon"img src="img/login-icon.png"><a href="#register" id="login">Register/Login</a>
+    </div>
+</head>
+<body>
+    <body background="./img/airline.jpg"></body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button><img id="plane" src="img/plane-icon.png"></button>
+        <button ><img id="hotel" src="img/hotel-icon.png"></button>
+        <button><img id="car" src="img/car-icon.png"></button>
+    </section>
+    <div id="wrapper">
+        <input id="depart" input type="text" class="depart-field" placeholder="Depart">
+        <input id="arrive" input type="text" class="depart-field" placeholder="Arrive">
+    <div>
+        <input id="departdate" input type="date" class="date-field" placeholder="mm/dd/yy">
+        <input id="arrivedate" input type="date" class="date-field" placeholder="mm/dd/yy">
+    </div>
+    <div id="passengers" style="width:300px;">Passengers
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+            <label id="returnselect" class="container">Return
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+            <label id="onewayselect" label class="container">One Way
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label>
+    </div>    
+    <div class="search">
+        <input id="submit" input type="submit" value="Search Flights"></p>
+    </div>
+</body>
+</html>
