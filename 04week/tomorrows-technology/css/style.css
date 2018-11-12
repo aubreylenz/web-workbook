@@ -1,0 +1,133 @@
+#main-article-image {
+    float: left;
+    width: 700px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+#main-article {
+    width: 700px;
+}
+
+#page-container {
+    padding-top: 10px;
+    float: left;
+    padding-left: 80px;
+}
+
+.topic-link {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#top-stories {
+    margin-top: -380px;
+    /* Between -45 & -20px */
+    margin-left: 20px;
+    width: 280px;
+    float: right;
+    padding-right: 40px;
+}
+
+#side-article {
+    float: top-right;
+    width: 300px;
+    top: -18px;
+    text-decoration: none;
+}
+
+.article-link {
+    text-decoration: none;
+}
+
+h1 {
+    align-content: center;
+}
+
+#bottom-container {
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline-flex;
+    margin-top: 30%;
+    padding: 33px;
+    width: 95%;
+}
+
+#bottom-container {
+    max-width: 990px;
+    ;
+}
+
+.useful-links-bar {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.social-bar {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/* ----Media Queries below ----- */
+
+@media screen and (min-width: 1300px)
+/* Desktop */
+
+{
+    body #main-article-image {
+        display: table-row-group;
+    }
+    body #main-article {
+        display: table-row-group;
+    }
+    #bottom-container {
+        padding-left: 33%;
+    }
+}
+
+@media screen and (max-width: 800px)
+/* Tablet */
+
+{
+    body #main-article-image {
+        width: 70%;
+        padding-left: auto;
+    }
+    body #main-article {
+        display: table-row-group;
+        padding-left: auto;
+    }
+    #top-stories {
+        display: none
+    }
+    #bottom-container {}
+}
+
+@media screen and (max-width: 500px)
+/* Mobile */
+
+{
+    body #main-article-image {
+        width: 70%;
+        padding-left: 15%;
+    }
+    body #main-article {
+        display: table-row-group;
+    }
+    #top-stories {
+        display: none
+    }
+    #bottom-container {
+        padding-bottom: 40%;
+    }
+    .social-bar {
+        flex-wrap: wrap;
+    }
+}
