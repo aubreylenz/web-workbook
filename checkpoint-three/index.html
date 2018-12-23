@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Treat Tapper</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+</head>
+<body>
+    <div id="game-content">
+        <h1>Treat Tapper</h1>
+        <hr>
+        <!------- Winnie's Face ------>
+        <div id="treat" style="cursor: pointer;" onclick="treatClicked();">
+            <img src="imgs/winnie.png" width="300">
+        </div>
+        <!------- Trick Counter ------>
+        <div id="buttons"></div>
+        <div id="numberOfTricks" class="text-bold"></div>
+        <!------- Buttons ------>
+        <button class="btn-item" onclick="buyClicker('tricks', 'tricksCost');">
+                    Buy Tricks for 10 Treats <span id="tricksCost"></span>
+                </button>
+
+        <button class="btn-item" onclick="buyClicker('treatBox', 'treatBoxCost');">
+                    Buy Treat Box for 30 Treats <span id="treatBoxCost"></span>
+                </button>
+        <div id="numberOfTeamLeaders" class="text-bold"></div>
+
+        <button class="btn-item" onclick="buyClicker('treatStore', 'treatStoreCost');">
+                    Buy Treat Store for 50 Treats <span id="treatStoreCost"></span>
+                </button>
+        <div id="numberOfTreatStore" class="text-bold"></div>
+
+        <button class="btn-item" onclick="buyClicker('treatWarehouse', 'treatWarehouseCost');">
+                    Buy Treat Warehouse for 200 Treats <span id="treatWarehouseCost"></span>
+                </button>
+        <div id="numberOfTreatWarehouse" class="text-bold"></div>
+        <hr>
+        <!------- Counters ------>
+        <h2 id="treatAmount"> </h2>
+        <h3 id="treatsPerSecond"> </h3>
+    </div>
+</body>
+<footer>Built by Aubrey Lenz @ Austin Coding Academy</footer>
+
+</html>

@@ -1,1 +1,97 @@
+body {
+    background: white;
+}
 
+h1 {
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 25px;
+}
+
+#treat {
+    float: left;
+    padding-right: 20%;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+
+/*------- COUNTERS --------*/
+
+#treatAmount {
+    color: black;
+}
+
+#treatsPerSecond {
+    color: black;
+}
+
+
+/*------- BUTTONS --------*/
+
+.btn-item {
+    text-decoration: none;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #beb753;
+    padding: 12px 17px;
+    font-size: 24px;
+    border: 3px solid rgb(206, 87, 8);
+    cursor: pointer;
+    margin: 20px 0 20px 20px;
+}
+
+#buttons {
+    align-items: right;
+    margin-left: 80px;
+}
+
+.btn-item:focus,
+.btn-item:hover {
+    background: #e6af1a;
+}
+
+.btn-item:active {
+    background-color: #fff;
+    color: #538fbe;
+}
+
+/*------- GAME CONTENT --------*/
+
+#game-content {
+    margin: 20px 0 30px;
+    padding: 20px;
+}
+
+#game-content h1 {
+    text-align: center;
+}
+
+#game-content #money img {
+    width: 180px;
+    height: auto;
+}
+
+#game-content .text-bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#game-content .btn-item {
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/*------- FOOTER --------*/
+
+footer {
+    background: rgb(206, 87, 8);
+    padding: 30px 0 30px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
